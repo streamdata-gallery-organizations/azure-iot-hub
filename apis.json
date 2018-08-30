@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure IoT Hub",
+	"description": "This is a repository of azure iot hub APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-iot-hub.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-iot-hub.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure IoT Hub",
+			"x-api-slug": "azure-iot-hub",
+			"description": "Jumpstart your Internet of Things project with Microsoft IoT Hub. Connect, monitor, and control billions of IoT assets running on a broad set of operating systems and protocols. Establish reliable, bi-directional communication with these assets, even if they&rsquo;re intermittently connected, and analyze&mdash;and act on&mdash;incoming telemetry data. Enhance the security of your IoT solutions by using per-device authentication to communicate with devices that have the appropriate credentials. Revoke access rights to specific devices to maintain the integrity of your system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-iot-01-establish.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/iot-hub/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure IoT Hub",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-iot-hub/master/_listings/azure-iot-hub/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure IoT Hub",
+	"include": [
+		{
+			"name": "Azure IoT Hub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-iot-hub/master/_listings/azure-iot-hub/apis.yaml"
+		}
+	]
+}
